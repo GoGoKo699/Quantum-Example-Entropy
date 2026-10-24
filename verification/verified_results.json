@@ -1,0 +1,2458 @@
+{
+  "absolute_tolerance": 5e-10,
+  "all_passed": true,
+  "case_count": 18,
+  "cases": [
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "enumerated_source_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "enumerated_source_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "enumerated_source_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.442666518157961e-17
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "classical_encoding_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "classical_encoding_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "classical_encoding_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.03333333333333333
+        },
+        {
+          "absolute_error": 1.064300166637588e-16,
+          "name": "difference_entire_spectrum",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.6653345369377348e-16,
+          "name": "distance_secular_root",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "distance_collision_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.45999999999999996,
+          "value": 0.30666666666666664
+        },
+        {
+          "lower_bound": 0.3066666666666667,
+          "name": "distance_Rayleigh_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.30666666666666664
+        },
+        {
+          "name": "distance_fidelity_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.37558842722675395,
+          "value": 0.30666666666666664
+        },
+        {
+          "absolute_error": 2.7755575615628914e-17,
+          "name": "label_covariance_0",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_0_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -6.830473686658678e-17
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "label_covariance_0_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.7755575615628914e-17,
+          "name": "label_covariance_1",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_1_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 1.6309673993272103e-17
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "label_covariance_1_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.7755575615628914e-17,
+          "name": "label_covariance_2",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_2_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 2.9815559743351372e-18
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "label_covariance_2_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 5.551115123125783e-17,
+          "name": "uniform_exact_distance",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "N": 3,
+        "average_label_collision_cbar": 0.45999999999999996,
+        "input_collision_alpha": 0.3333333333333333,
+        "label_dimension": 3,
+        "positive_eigenvalue_lambda": 0.6666666666666663,
+        "tables_enumerated": 27,
+        "trace_distance": 0.30666666666666664
+      },
+      "name": "fresh_uniform_shifted",
+      "passed": true,
+      "purpose": "Compare explicit label-table averaging with the full nonuniform spectrum.",
+      "theorem": "F1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "enumerated_source_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "enumerated_source_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "enumerated_source_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -4.577747854547307e-17
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "classical_encoding_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "classical_encoding_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "classical_encoding_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.04000000000000001
+        },
+        {
+          "absolute_error": 1.6653345369377348e-16,
+          "name": "difference_entire_spectrum",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.7755575615628914e-16,
+          "name": "distance_secular_root",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "distance_collision_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.6975000000000001,
+          "value": 0.42245910927241676
+        },
+        {
+          "lower_bound": 0.3970724014336918,
+          "name": "distance_Rayleigh_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.42245910927241676
+        },
+        {
+          "name": "distance_fidelity_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.526267992566525,
+          "value": 0.42245910927241676
+        },
+        {
+          "absolute_error": 4.163336342344337e-17,
+          "name": "label_covariance_0",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_0_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 6.938893903907228e-18
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "label_covariance_0_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 5.551115123125783e-17,
+          "name": "label_covariance_1",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_1_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 1.3877787807814457e-17
+        },
+        {
+          "absolute_error": 1.6653345369377348e-16,
+          "name": "label_covariance_1_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "label_covariance_2",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_2_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "label_covariance_2_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "N": 3,
+        "average_label_collision_cbar": 0.6975000000000001,
+        "input_collision_alpha": 0.37999999999999995,
+        "label_dimension": 2,
+        "positive_eigenvalue_lambda": 0.605676142326045,
+        "tables_enumerated": 8,
+        "trace_distance": 0.42245910927241676
+      },
+      "name": "fresh_nonuniform_conditional",
+      "passed": true,
+      "purpose": "Compare explicit label-table averaging with the full nonuniform spectrum.",
+      "theorem": "F1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "enumerated_source_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "enumerated_source_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "enumerated_source_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "classical_encoding_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "classical_encoding_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "classical_encoding_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "difference_entire_spectrum",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 6.245004513516506e-17,
+          "name": "distance_secular_root",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "distance_collision_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.8200000000000001,
+          "value": 6.245004513516506e-17
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "distance_Rayleigh_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 6.245004513516506e-17
+        },
+        {
+          "name": "distance_fidelity_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.0,
+          "value": 6.245004513516506e-17
+        },
+        {
+          "absolute_error": 4.163336342344337e-17,
+          "name": "label_covariance_0",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_0_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 6.938893903907228e-18
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "label_covariance_0_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 5.551115123125783e-17,
+          "name": "label_covariance_1",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_1_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 1.3877787807814457e-17
+        },
+        {
+          "absolute_error": 1.6653345369377348e-16,
+          "name": "label_covariance_1_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "label_covariance_2",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_2_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "label_covariance_2_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "N": 3,
+        "average_label_collision_cbar": 0.8200000000000001,
+        "input_collision_alpha": 1.0,
+        "label_dimension": 2,
+        "positive_eigenvalue_lambda": 0.0,
+        "tables_enumerated": 8,
+        "trace_distance": 6.245004513516506e-17
+      },
+      "name": "fresh_single_supported_address",
+      "passed": true,
+      "purpose": "Compare explicit label-table averaging with the full nonuniform spectrum.",
+      "theorem": "F1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "enumerated_source_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "enumerated_source_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "enumerated_source_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.225589145537017e-16
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "classical_encoding_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "classical_encoding_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "classical_encoding_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "difference_entire_spectrum",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 3.3306690738754696e-16,
+          "name": "distance_secular_root",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "distance_collision_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.0,
+          "value": 0.6666666666666666
+        },
+        {
+          "lower_bound": 0.6666666666666667,
+          "name": "distance_Rayleigh_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.6666666666666666
+        },
+        {
+          "name": "distance_fidelity_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.816496580927726,
+          "value": 0.6666666666666666
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "label_covariance_0",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_0_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "label_covariance_0_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "label_covariance_1",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_1_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "label_covariance_1_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "label_covariance_2",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "label_covariance_2_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "label_covariance_2_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "uniform_exact_distance",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "N": 3,
+        "average_label_collision_cbar": 1.0,
+        "input_collision_alpha": 0.3333333333333333,
+        "label_dimension": 2,
+        "positive_eigenvalue_lambda": 0.6666666666666663,
+        "tables_enumerated": 1,
+        "trace_distance": 0.6666666666666666
+      },
+      "name": "fresh_deterministic_labels",
+      "passed": true,
+      "purpose": "Compare explicit label-table averaging with the full nonuniform spectrum.",
+      "theorem": "F1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "frozen_moment_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "frozen_moment_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "frozen_moment_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -5.366686261284662e-17
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "exact_T_simulator_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "exact_T_simulator_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "exact_T_simulator_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -2.0913133802159982e-17
+        },
+        {
+          "absolute_error": 2.163301191520602e-17,
+          "name": "unconditional_cross_term_zero",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.3877787807814457e-17,
+          "name": "global_orthogonal_decomposition",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 3.469446951953614e-18,
+          "name": "centered_core_covariance_construction",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.7755575615628914e-17,
+          "name": "core_trace_w_T",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -9.287613974780396e-18
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "frozen_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -7.523634093854296e-17
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "simulator_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -2.3597357598493816e-17
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "distinct_simulator_part_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -2.3597357598493816e-17
+        },
+        {
+          "absolute_error": 6.661338147750939e-16,
+          "name": "quantum_label_symmetrization_isometry",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "exact_T_collision_probability",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "distance_common_core_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.8056000000000001,
+          "value": 0.6340146448548141
+        },
+        {
+          "name": "common_core_union_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.2533333333333332,
+          "value": 0.8056000000000001
+        },
+        {
+          "absolute_error": 5.551115123125783e-17,
+          "name": "uniform_core_closed_form",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "N": 3,
+        "actual_trace_distance": 0.6340146448548141,
+        "average_label_collision_cbar": 0.45999999999999996,
+        "common_core_weight_w_T": 0.19439999999999996,
+        "copies_T": 2,
+        "distinct_address_probability": 0.6666666666666667,
+        "exact_common_core_bound": 0.8056000000000001,
+        "input_collision_alpha": 0.3333333333333333,
+        "label_dimension": 3,
+        "matrix_dimension": 81,
+        "tables_enumerated": 27,
+        "union_bound": 1.2533333333333332
+      },
+      "name": "frozen_uniform_shifted_T2",
+      "passed": true,
+      "purpose": "Check the global orthogonal core and the exact-T classical-record simulator.",
+      "theorem": "S1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "frozen_moment_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 4.440892098500626e-16,
+          "name": "frozen_moment_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "frozen_moment_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -6.240928677059926e-17
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "exact_T_simulator_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "exact_T_simulator_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "exact_T_simulator_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -7.637089954183001e-18
+        },
+        {
+          "absolute_error": 2.591209877759656e-17,
+          "name": "unconditional_cross_term_zero",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.7755575615628914e-17,
+          "name": "global_orthogonal_decomposition",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.6020852139652106e-18,
+          "name": "centered_core_covariance_construction",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 5.551115123125783e-17,
+          "name": "core_trace_w_T",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -5.002255040874805e-18
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "frozen_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -7.994531296956352e-17
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "simulator_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -2.4145150121114474e-17
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "distinct_simulator_part_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -2.4145150121114474e-17
+        },
+        {
+          "absolute_error": 4.440892098500626e-16,
+          "name": "quantum_label_symmetrization_isometry",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "exact_T_collision_probability",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "distance_common_core_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.9427420000000001,
+          "value": 0.6589856764164638
+        },
+        {
+          "name": "common_core_union_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.7750000000000001,
+          "value": 0.9427420000000001
+        }
+      ],
+      "metrics": {
+        "N": 3,
+        "actual_trace_distance": 0.6589856764164638,
+        "average_label_collision_cbar": 0.6975000000000001,
+        "common_core_weight_w_T": 0.057257999999999955,
+        "copies_T": 2,
+        "distinct_address_probability": 0.6200000000000001,
+        "exact_common_core_bound": 0.9427420000000001,
+        "input_collision_alpha": 0.37999999999999995,
+        "label_dimension": 2,
+        "matrix_dimension": 36,
+        "tables_enumerated": 8,
+        "union_bound": 1.7750000000000001
+      },
+      "name": "frozen_nonuniform_conditional_T2",
+      "passed": true,
+      "purpose": "Check the global orthogonal core and the exact-T classical-record simulator.",
+      "theorem": "S1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "frozen_moment_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 4.440892098500626e-16,
+          "name": "frozen_moment_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "frozen_moment_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.1737616149991932e-16
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "exact_T_simulator_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "exact_T_simulator_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "exact_T_simulator_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -2.183857230480469e-17
+        },
+        {
+          "absolute_error": 4.629460258605191e-18,
+          "name": "unconditional_cross_term_zero",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 3.469446951953614e-18,
+          "name": "global_orthogonal_decomposition",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.0842021724855044e-19,
+          "name": "centered_core_covariance_construction",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 5.204170427930421e-18,
+          "name": "core_trace_w_T",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -2.5700588890920985e-18
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "frozen_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.3716046685050861e-16
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "simulator_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.8737077141910095e-17
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "distinct_simulator_part_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.8737077141910095e-17
+        },
+        {
+          "absolute_error": 6.280369834735101e-16,
+          "name": "quantum_label_symmetrization_isometry",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "exact_T_collision_probability",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "distance_common_core_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.9948678400000001,
+          "value": 0.8835198347378417
+        },
+        {
+          "name": "common_core_union_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 3.2325,
+          "value": 0.9948678400000001
+        }
+      ],
+      "metrics": {
+        "N": 3,
+        "actual_trace_distance": 0.8835198347378417,
+        "average_label_collision_cbar": 0.6975000000000001,
+        "common_core_weight_w_T": 0.005132159999999995,
+        "copies_T": 3,
+        "distinct_address_probability": 0.18,
+        "exact_common_core_bound": 0.9948678400000001,
+        "input_collision_alpha": 0.37999999999999995,
+        "label_dimension": 2,
+        "matrix_dimension": 216,
+        "tables_enumerated": 8,
+        "union_bound": 3.2325
+      },
+      "name": "frozen_nonuniform_conditional_T3",
+      "passed": true,
+      "purpose": "Check the global orthogonal core and the exact-T classical-record simulator.",
+      "theorem": "S1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "frozen_moment_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "frozen_moment_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "frozen_moment_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.3777332830854817e-16
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "exact_T_simulator_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "exact_T_simulator_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "exact_T_simulator_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "unconditional_cross_term_zero",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "global_orthogonal_decomposition",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "centered_core_covariance_construction",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "core_trace_w_T",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "frozen_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.3777332830854817e-16
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "simulator_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "distinct_simulator_part_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "quantum_label_symmetrization_isometry",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "exact_T_collision_probability",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "distance_common_core_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.0,
+          "value": 0.8425518746692717
+        },
+        {
+          "name": "common_core_union_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 3.444,
+          "value": 1.0
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "excess_copies_zero_core",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "excess_copies_all_fallback",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "N": 2,
+        "actual_trace_distance": 0.8425518746692717,
+        "average_label_collision_cbar": 0.5680000000000001,
+        "common_core_weight_w_T": 0.0,
+        "copies_T": 3,
+        "distinct_address_probability": 0.0,
+        "exact_common_core_bound": 1.0,
+        "input_collision_alpha": 0.58,
+        "label_dimension": 2,
+        "matrix_dimension": 64,
+        "tables_enumerated": 4,
+        "union_bound": 3.444
+      },
+      "name": "frozen_T_exceeds_address_support",
+      "passed": true,
+      "purpose": "Check the global orthogonal core and the exact-T classical-record simulator.",
+      "theorem": "S1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "frozen_moment_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "frozen_moment_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "frozen_moment_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -3.2034701835375946e-17
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "exact_T_simulator_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "exact_T_simulator_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "exact_T_simulator_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -8.040886421020277e-18
+        },
+        {
+          "absolute_error": 3.0627408293965386e-17,
+          "name": "unconditional_cross_term_zero",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.5612511283791264e-17,
+          "name": "global_orthogonal_decomposition",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 6.938893903907228e-18,
+          "name": "centered_core_covariance_construction",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.6653345369377348e-16,
+          "name": "core_trace_w_T",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -7.258821033186647e-18
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "frozen_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -4.633253066792803e-17
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "simulator_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.0544987013085118e-17
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "distinct_simulator_part_minus_core_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.0544987013085118e-17
+        },
+        {
+          "absolute_error": 8.881784197001252e-16,
+          "name": "quantum_label_symmetrization_isometry",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "exact_T_collision_probability",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "distance_common_core_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.6451225599999999,
+          "value": 0.5398623192818048
+        },
+        {
+          "name": "common_core_union_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.8741333333333332,
+          "value": 0.6451225599999999
+        },
+        {
+          "absolute_error": 5.551115123125783e-17,
+          "name": "uniform_core_closed_form",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "N": 3,
+        "actual_trace_distance": 0.5398623192818048,
+        "average_label_collision_cbar": 0.2704,
+        "common_core_weight_w_T": 0.35487744000000004,
+        "copies_T": 2,
+        "distinct_address_probability": 0.6666666666666667,
+        "exact_common_core_bound": 0.6451225599999999,
+        "input_collision_alpha": 0.3333333333333333,
+        "label_dimension": 4,
+        "matrix_dimension": 144,
+        "tables_enumerated": 64,
+        "union_bound": 0.8741333333333332
+      },
+      "name": "frozen_product_label_noise_T2",
+      "passed": true,
+      "purpose": "Check the global orthogonal core and the exact-T classical-record simulator.",
+      "theorem": "S1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "frozen_SWAP_expectation",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "refreshed_SWAP_equals_purity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "symmetrized_simulator_SWAP_expectation",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.1,
+          "name": "fresh_frozen_operational_separation",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.34375
+        }
+      ],
+      "metrics": {
+        "frozen_SWAP_acceptance": 1.0,
+        "one_copy_purity": 0.3125,
+        "refreshed_SWAP_acceptance": 0.65625,
+        "simulator_SWAP_acceptance": 1.0
+      },
+      "name": "fresh_frozen_swap_control",
+      "passed": true,
+      "purpose": "Detect the erroneous replacement of frozen specimens by independent one-copy averages.",
+      "theorem": "F1/S1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 5.551115123125783e-17,
+          "name": "C1_uniform_input_attains_bound",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "C1_maximally_entangled_input_attains_bound",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 7.152448122690996e-18,
+          "name": "C1_reference_operator_identity_0",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_0",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.49,
+          "value": 0.23296949487996507
+        },
+        {
+          "absolute_error": 1.387789368652897e-17,
+          "name": "C1_reference_operator_identity_1",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_1",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.49,
+          "value": 0.2386888104401978
+        },
+        {
+          "absolute_error": 7.152448122690996e-18,
+          "name": "C1_reference_operator_identity_2",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_2",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.49,
+          "value": 0.24980221781782386
+        },
+        {
+          "absolute_error": 6.938893903907228e-18,
+          "name": "C1_reference_operator_identity_3",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_3",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.49,
+          "value": 0.2216894665386942
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "normalized_Choi_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "normalized_Choi_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "normalized_Choi_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.1667213360230717e-17
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "C2_full_Choi_spectrum",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "C2_capacity_formula",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.3307493421693002,
+          "name": "C2_flagged_lower_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 1.0119678038152982
+        },
+        {
+          "name": "C2_flagged_upper_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.1649474380300495,
+          "value": 1.0119678038152982
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_0",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.0119678038152982,
+          "value": 0.6191027972166738
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_1",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.0119678038152982,
+          "value": 0.6170312590340852
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_2",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.0119678038152982,
+          "value": 0.6493515890575066
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_3",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.0119678038152982,
+          "value": 0.39793992390205934
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_4",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.0119678038152982,
+          "value": 0.498795033992671
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_5",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.0119678038152982,
+          "value": 0.6723488963763362
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_6",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.0119678038152982,
+          "value": 0.1986299114348069
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_7",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.0119678038152982,
+          "value": 0.4126661641314331
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "C2_pure_input_zero_coherent_information",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "C2_flagged_residual_joint_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -5.848819105912408e-17
+        },
+        {
+          "absolute_error": 3.3306690738754696e-16,
+          "name": "C2_flagged_coherent_information",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "C2_forgetting_flag_CI_loss_nonnegative",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.09761551775188448
+        },
+        {
+          "name": "C2_forgetting_flag_CI_loss_bounded_by_binary_entropy",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.8341980958607493,
+          "value": 0.09761551775188448
+        },
+        {
+          "absolute_error": 5.551115123125783e-17,
+          "name": "known_f_output_unitary_equivalence",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "common_shift_is_identity_tensor_noise_after_undo",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "N": 3,
+        "capacity_closed_formula": 1.0119678038152982,
+        "capacity_from_explicit_Choi_qubits_per_use": 1.0119678038152982,
+        "collision_c": 0.7349999999999999,
+        "flagged_lower_bound": 0.3307493421693002,
+        "flagged_upper_bound": 1.1649474380300495,
+        "half_diamond_formula": 0.49,
+        "label_dimension": 3,
+        "largest_of_eight_sampled_input_coherent_informations": 0.6723488963763362,
+        "largest_sampled_reference_distance": 0.24980221781782386,
+        "tables_enumerated": 27
+      },
+      "name": "channel_biased_noise",
+      "passed": true,
+      "purpose": "Enumerate channel isometries; check references, Choi blocks, covariance, and coherent information.",
+      "theorem": "C1/C2"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "C1_uniform_input_attains_bound",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "C1_maximally_entangled_input_attains_bound",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 3.878959614448864e-18,
+          "name": "C1_reference_operator_identity_0",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_0",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.33333333333333337,
+          "value": 0.15848264957820765
+        },
+        {
+          "absolute_error": 3.469552829456483e-18,
+          "name": "C1_reference_operator_identity_1",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_1",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.33333333333333337,
+          "value": 0.16237334043550875
+        },
+        {
+          "absolute_error": 3.576224061345498e-18,
+          "name": "C1_reference_operator_identity_2",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_2",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.33333333333333337,
+          "value": 0.16993348150872373
+        },
+        {
+          "absolute_error": 3.576224061345498e-18,
+          "name": "C1_reference_operator_identity_3",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_3",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.33333333333333337,
+          "value": 0.1508091609106763
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "normalized_Choi_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "normalized_Choi_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "normalized_Choi_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -2.7755575615628914e-17
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "C2_full_Choi_spectrum",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 3.3306690738754696e-16,
+          "name": "C2_capacity_formula",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "C2_flagged_lower_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.7924812503605778
+        },
+        {
+          "name": "C2_flagged_upper_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.792481250360578,
+          "value": 0.7924812503605778
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "C2_uniform_support_capacity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_0",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.7924812503605778,
+          "value": 0.48530710932758936
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_1",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.7924812503605778,
+          "value": 0.4904292800214165
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_2",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.7924812503605778,
+          "value": 0.5168737044029281
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_3",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.7924812503605778,
+          "value": 0.31576309068386776
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_4",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.7924812503605778,
+          "value": 0.39414639119865624
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_5",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.7924812503605778,
+          "value": 0.5339084789255779
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_6",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.7924812503605778,
+          "value": 0.1678016502471935
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_7",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.7924812503605778,
+          "value": 0.3194801659766673
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "C2_pure_input_zero_coherent_information",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "C2_flagged_residual_joint_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.5564877993698146e-17
+        },
+        {
+          "absolute_error": 5.551115123125783e-16,
+          "name": "C2_flagged_coherent_information",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "C2_forgetting_flag_CI_loss_nonnegative",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 6.661338147750939e-16
+        },
+        {
+          "name": "C2_forgetting_flag_CI_loss_bounded_by_binary_entropy",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.0,
+          "value": 6.661338147750939e-16
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "known_f_output_unitary_equivalence",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "common_shift_is_identity_tensor_noise_after_undo",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "N": 3,
+        "capacity_closed_formula": 0.7924812503605781,
+        "capacity_from_explicit_Choi_qubits_per_use": 0.7924812503605778,
+        "collision_c": 0.5,
+        "flagged_lower_bound": 0.0,
+        "flagged_upper_bound": 0.792481250360578,
+        "half_diamond_formula": 0.33333333333333337,
+        "label_dimension": 3,
+        "largest_of_eight_sampled_input_coherent_informations": 0.5339084789255779,
+        "largest_sampled_reference_distance": 0.16993348150872373,
+        "tables_enumerated": 8
+      },
+      "name": "channel_uniform_support_noise",
+      "passed": true,
+      "purpose": "Enumerate channel isometries; check references, Choi blocks, covariance, and coherent information.",
+      "theorem": "C1/C2"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "C1_uniform_input_attains_bound",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "C1_maximally_entangled_input_attains_bound",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "C1_reference_operator_identity_0",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_0",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.6666666666666667,
+          "value": 0.31696529915641514
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "C1_reference_operator_identity_1",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_1",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.6666666666666667,
+          "value": 0.3247466808710175
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "C1_reference_operator_identity_2",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_2",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.6666666666666667,
+          "value": 0.3398669630174474
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "C1_reference_operator_identity_3",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C1_reference_distance_bound_3",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.6666666666666667,
+          "value": 0.3016183218213526
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "normalized_Choi_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "normalized_Choi_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "normalized_Choi_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -1.5916564905185632e-16
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "C2_full_Choi_spectrum",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "C2_capacity_formula",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 1.584962500721156,
+          "name": "C2_flagged_lower_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 1.5849625007211563
+        },
+        {
+          "name": "C2_flagged_upper_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.584962500721156,
+          "value": 1.5849625007211563
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "C2_uniform_support_capacity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_0",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.5849625007211563,
+          "value": 0.9706142186551807
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_1",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.5849625007211563,
+          "value": 0.9808585600428326
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_2",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.5849625007211563,
+          "value": 1.0337474088058574
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_3",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.5849625007211563,
+          "value": 0.631526181367737
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_4",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.5849625007211563,
+          "value": 0.7882927823973123
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_5",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.5849625007211563,
+          "value": 1.067816957851154
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_6",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.5849625007211563,
+          "value": 0.33560330049438725
+        },
+        {
+          "name": "C2_sampled_input_below_uniform_7",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 1.5849625007211563,
+          "value": 0.6389603319533338
+        },
+        {
+          "absolute_error": 9.610279511444752e-16,
+          "name": "C2_pure_input_zero_coherent_information",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "C2_flagged_residual_joint_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0
+        },
+        {
+          "absolute_error": 4.440892098500626e-16,
+          "name": "C2_flagged_coherent_information",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "C2_forgetting_flag_CI_loss_nonnegative",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -3.3306690738754696e-16
+        },
+        {
+          "name": "C2_forgetting_flag_CI_loss_bounded_by_binary_entropy",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.0,
+          "value": -3.3306690738754696e-16
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "known_f_output_unitary_equivalence",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "common_shift_is_identity_tensor_noise_after_undo",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "N": 3,
+        "capacity_closed_formula": 1.584962500721156,
+        "capacity_from_explicit_Choi_qubits_per_use": 1.5849625007211563,
+        "collision_c": 1.0,
+        "flagged_lower_bound": 1.584962500721156,
+        "flagged_upper_bound": 1.584962500721156,
+        "half_diamond_formula": 0.6666666666666667,
+        "label_dimension": 3,
+        "largest_of_eight_sampled_input_coherent_informations": 1.067816957851154,
+        "largest_sampled_reference_distance": 0.3398669630174474,
+        "tables_enumerated": 1
+      },
+      "name": "channel_deterministic_noise",
+      "passed": true,
+      "purpose": "Enumerate channel isometries; check references, Choi blocks, covariance, and coherent information.",
+      "theorem": "C1/C2"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 3.3306690738754696e-16,
+          "name": "Stinespring_isometry",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.2219838056164514e-17,
+          "name": "channel_output_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "channel_output_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "channel_output_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.0005569450890014416
+        },
+        {
+          "absolute_error": 4.97157386232316e-17,
+          "name": "environment_output_Hermiticity",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "environment_output_trace",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "environment_output_minimum_eigenvalue",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": -4.022048416721739e-17
+        },
+        {
+          "absolute_error": 5.551115123125783e-17,
+          "name": "degrading_map_recovers_environment",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 5.551115123125783e-17,
+          "name": "Stinespring_output_agrees_with_table_channel",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "environment_dimension": 8,
+        "input_dimension": 3,
+        "output_dimension": 6
+      },
+      "name": "explicit_Stinespring_degradability",
+      "passed": true,
+      "purpose": "Construct the environment explicitly and reproduce it by measuring the retained output address.",
+      "theorem": "C2"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "affine_GF4_pairwise_label_independence",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "cubic_GF4_fourwise_table_distribution",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "pairwise_hash_exact_one_copy_moment",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 1e-06,
+          "name": "pairwise_hash_not_enough_for_two_frozen_copies",
+          "passed": true,
+          "tolerance": 0,
+          "value": 0.0937500000000001
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "fourwise_hash_exact_two_copy_moment",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "fourwise_distinct_tables": 16,
+        "fourwise_seed_count": 256,
+        "one_copy_pairwise_trace_distance": 0.0,
+        "pairwise_distinct_tables": 8,
+        "pairwise_seed_count": 16,
+        "two_copy_fourwise_trace_distance": 0.0,
+        "two_copy_pairwise_trace_distance": 0.0937500000000001
+      },
+      "name": "finite_hash_moment_order",
+      "passed": true,
+      "purpose": "Check pairwise sufficiency for fresh sources and its failure for two frozen copies.",
+      "theorem": "F1/S1/P1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "table_0_QFT_normalization",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.03125,
+          "name": "table_0_small_frequency_success",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.11764705882352941
+        },
+        {
+          "name": "table_0_all_wrong_candidates",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.29411764705882354,
+          "value": 0.17647058823529413
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "table_1_QFT_normalization",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.03125,
+          "name": "table_1_small_frequency_success",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.11764705882352935
+        },
+        {
+          "name": "table_1_all_wrong_candidates",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.29411764705882354,
+          "value": 0.17647058823529413
+        },
+        {
+          "absolute_error": 3.3306690738754696e-16,
+          "name": "table_2_QFT_normalization",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.03125,
+          "name": "table_2_small_frequency_success",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.08327327264247185
+        },
+        {
+          "name": "table_2_all_wrong_candidates",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.29411764705882354,
+          "value": 0.1903114186851211
+        },
+        {
+          "absolute_error": 3.3306690738754696e-16,
+          "name": "table_3_QFT_normalization",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.03125,
+          "name": "table_3_small_frequency_success",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.09454755708437604
+        },
+        {
+          "name": "table_3_all_wrong_candidates",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.29411764705882354,
+          "value": 0.29411764705882354
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "averaged_Fourier_distribution_from_all_tables",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 1.1102230246251565e-16,
+          "name": "averaged_nonzero_candidate_probability",
+          "passed": true,
+          "tolerance": 5e-10
+        }
+      ],
+      "metrics": {
+        "averaged_table_count": 27,
+        "bounded_table_parameters": {
+          "B": 1,
+          "n": 2,
+          "q": 17
+        },
+        "small_frequency_success_by_table": [
+          0.11764705882352941,
+          0.11764705882352935,
+          0.08327327264247185,
+          0.09454755708437604
+        ],
+        "worst_false_candidate_pass_by_table": [
+          0.17647058823529413,
+          0.17647058823529413,
+          0.1903114186851211,
+          0.29411764705882354
+        ]
+      },
+      "name": "scalar_Fourier_and_fixed_table_verification",
+      "passed": true,
+      "purpose": "Check the scalar positive endpoint on explicit bounded tables, including address-dependent errors.",
+      "theorem": "L2/GKZ"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "full_graph_state_Gram_matrix",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "projected_graph_state_Gram_matrix",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "absolute_error": 2.220446049250313e-16,
+          "name": "one_copy_required_environment_spectrum",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "one_copy_required_Gram_is_not_PSD",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": -0.001,
+          "value": -0.11803398874989512
+        },
+        {
+          "absolute_error": 4.440892098500626e-16,
+          "name": "two_copy_required_environment_spectrum",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "lower_bound": 0.0,
+          "name": "witness_does_not_rule_out_two_copy_conversion",
+          "passed": true,
+          "tolerance": 5e-10,
+          "value": 0.44098300562505244
+        }
+      ],
+      "metrics": {
+        "one_copy_minimum_required_Gram_eigenvalue": -0.11803398874989512,
+        "two_copy_minimum_required_Gram_eigenvalue": 0.44098300562505244
+      },
+      "name": "one_copy_erasure_scope",
+      "passed": true,
+      "purpose": "Check the exact one-copy Stinespring obstruction and the two-copy boundary of that witness.",
+      "theorem": "E1"
+    },
+    {
+      "checks": [
+        {
+          "absolute_error": 0.0,
+          "name": "sigma_4_modular_normalization",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "sigma_4_collision_at_most_max_mass",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.25000000000000006,
+          "value": 0.1767766953011051
+        },
+        {
+          "name": "sigma_4_maximum_mass_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.5,
+          "value": 0.25000000000000006
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "sigma_8_modular_normalization",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "sigma_8_collision_at_most_max_mass",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.125,
+          "value": 0.08838834764831889
+        },
+        {
+          "name": "sigma_8_maximum_mass_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.25,
+          "value": 0.125
+        },
+        {
+          "absolute_error": 0.0,
+          "name": "sigma_16_modular_normalization",
+          "passed": true,
+          "tolerance": 5e-10
+        },
+        {
+          "name": "sigma_16_collision_at_most_max_mass",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.0625,
+          "value": 0.04419417382425563
+        },
+        {
+          "name": "sigma_16_maximum_mass_bound",
+          "passed": true,
+          "tolerance": 5e-10,
+          "upper_bound": 0.125,
+          "value": 0.0625
+        }
+      ],
+      "metrics": {
+        "finite_folding_checks": [
+          {
+            "bound": 0.5,
+            "collision": 0.1767766953011051,
+            "maximum_mass": 0.25000000000000006,
+            "q": 17,
+            "sigma": 4
+          },
+          {
+            "bound": 0.25,
+            "collision": 0.08838834764831889,
+            "maximum_mass": 0.125,
+            "q": 37,
+            "sigma": 8
+          },
+          {
+            "bound": 0.125,
+            "collision": 0.04419417382425563,
+            "maximum_mass": 0.0625,
+            "q": 67,
+            "sigma": 16
+          }
+        ],
+        "integer_truncation_radius_in_width_units": 8
+      },
+      "name": "folded_Gaussian_collision_bound",
+      "passed": true,
+      "purpose": "Check modular folding and the stated elementary collision estimate at growing widths.",
+      "theorem": "L3"
+    }
+  ],
+  "check_count": 321,
+  "construction": "Sources are formed by explicit enumeration of label tables; the classical simulator is formed independently from iid classical record tuples with a fixed collision fallback.",
+  "elapsed_seconds": 0.22810188900621142,
+  "environment": {
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "python": "3.12.14"
+  },
+  "limitations": [
+    "No finite calculation proves a statement for arbitrary alphabets or copy counts.",
+    "The diamond-norm upper bound and uniform-input capacity optimum are analytic results; finite reference probes and input probes only check selected instances.",
+    "Small supplied quantum-example Fourier calculations are consistency checks, not cryptanalytic benchmarks or verification of any lattice-hardness assumption.",
+    "The finite hash example checks a specific GF(4) family and is not a performance benchmark.",
+    "Floating-point eigenvalues within the stated tolerance are treated as numerical roundoff."
+  ],
+  "random_seed_for_fixed_finite_probes": 20261024,
+  "run_utc": "2026-10-24T02:45:45.462628+00:00",
+  "schema_version": 1,
+  "scope": "Deterministic finite-dimensional consistency checks; not proofs of asymptotic theorems or cryptographic hardness.",
+  "script_sha256": "943f9bc83d19c1434e3feb6fbd6942bd3a45641237484660e3fa124d759b062f"
+}
