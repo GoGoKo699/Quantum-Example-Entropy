@@ -2,13 +2,13 @@
 
 The central question is when coherent examples carry information that cannot be reproduced by quantum processing of ordinary classical examples. The comparison concerns data access: the simulator and the learner may both perform quantum computation. It does not assert that arbitrary quantum computation is classically simulable.
 
-For finite input and label alphabets, let $p_x$ be the input probabilities and $P_x(y)$ arbitrary conditional label laws. Independently draw one label $F(x)\sim P_x$ for each input, and prepare
+For finite input and label alphabets, let $`p_x`$ be the input probabilities and $`P_x(y)`$ arbitrary conditional label laws. Independently draw one label $`F(x)\sim P_x`$ for each input, and prepare
 
 $$
 |\psi_F\rangle=\sum_x\sqrt{p_x}|x,F(x)\rangle.
 $$
 
-In the frozen model the same hidden table $F$ is used in all $T$ copies. Its operational state is therefore
+In the frozen model the same hidden table $`F`$ is used in all $`T`$ copies. Its operational state is therefore
 
 $$
 \Omega_T=\mathbb E_F[(|\psi_F\rangle\langle\psi_F|)^{\otimes T}],
@@ -22,7 +22,7 @@ c_x=\sum_yP_x(y)^2,\qquad
 \alpha=\sum_xp_x^2.
 $$
 
-Theorem S1 provides a quantum simulator using exactly $T$ independent classical examples from $p_xP_x(y)$, with
+Theorem S1 provides a quantum simulator using exactly $`T`$ independent classical examples from $`p_xP_x(y)`$, with
 
 $$
 \tfrac12\|\Omega_T-\mathrm{Sim}_T\|_1
@@ -30,7 +30,7 @@ $$
 \le T\bar c+\binom T2\alpha.
 $$
 
-Here $e_T$ is the elementary symmetric polynomial. The simulator uses only the observed examples, not descriptions of the unknown laws or the hidden signal. The bound averages over the initial hidden table; it is not a closeness assertion for every realized pure state. The relevant contribution is this signal-preserving comparison for arbitrary conditional label laws, including the frozen joint ensemble.
+Here $`e_T`$ is the elementary symmetric polynomial. The simulator uses only the observed examples, not descriptions of the unknown laws or the hidden signal. The bound averages over the initial hidden table; it is not a closeness assertion for every realized pure state. The relevant contribution is this signal-preserving comparison for arbitrary conditional label laws, including the frozen joint ensemble.
 
 <a id="gkz2019"></a>
 
@@ -42,9 +42,9 @@ Section V.2 and Appendix C.2 discuss the Ring-LWE extension. Their source retain
 
 <a id="caro2024"></a>
 
-Caro, Hinsche, Ioannou, Nietner and Sweke [Caro24] give an explicit general distributional formulation of the refreshed model. Definition 8 of the full preprint samples a Boolean labeling function independently from the conditional label laws and then averages its superposition state. Their mixture-of-superpositions oracle returns a copy of that mixed state. Lemma 1 shows that computational-basis measurement recovers the original classical distribution. Their learning and verification results, and distribution-independent sample lower bounds, establish substantial prior work on the source model itself. The conditional laws in S1 generalize this formulation to arbitrary finite labels and add a joint-state simulation theorem for a table reused across copies. Binary labels have $c_x\ge 1/2$, so the small-$\bar c$ regime is not available for a single Boolean label. [Caro24]
+Caro, Hinsche, Ioannou, Nietner and Sweke [Caro24] give an explicit general distributional formulation of the refreshed model. Definition 8 of the full preprint samples a Boolean labeling function independently from the conditional label laws and then averages its superposition state. Their mixture-of-superpositions oracle returns a copy of that mixed state. Lemma 1 shows that computational-basis measurement recovers the original classical distribution. Their learning and verification results, and distribution-independent sample lower bounds, establish substantial prior work on the source model itself. The conditional laws in S1 generalize this formulation to arbitrary finite labels and add a joint-state simulation theorem for a table reused across copies. Binary labels have $`c_x\ge 1/2`$, so the small-$`\bar c`$ regime is not available for a single Boolean label. [Caro24]
 
-Two applications distinguish output size from an arbitrary choice of classical encoding. For product errors over $d$ coefficients, the collision probability is $c_0^d$, giving an exponentially small simulation error when $c_0<1$ is fixed and the input collision term is also negligible. Alternatively, append independent random bit labels at every input address to a scalar noisy example. The classical experiment acquires independent auxiliary data, while the coherent graph source acquires additional independent labels. S1 applies to the enlarged label distribution. These labels are address-dependent random functions; a single independent tensor factor shared by every branch does not have the same effect. The positive scalar learning endpoint remains the result of [GKZ19].
+Two applications distinguish output size from an arbitrary choice of classical encoding. For product errors over $`d`$ coefficients, the collision probability is $`c_0^d`$, giving an exponentially small simulation error when $`c_0<1`$ is fixed and the input collision term is also negligible. Alternatively, append independent random bit labels at every input address to a scalar noisy example. The classical experiment acquires independent auxiliary data, while the coherent graph source acquires additional independent labels. S1 applies to the enlarged label distribution. These labels are address-dependent random functions; a single independent tensor factor shared by every branch does not have the same effect. The positive scalar learning endpoint remains the result of [GKZ19].
 
 <a id="kimkim2024"></a>
 
@@ -73,7 +73,7 @@ Thus discarding unknown output coefficients does not generally yield the asserte
 
 ## Coherent permutation simulation is an established technique
 
-Goyal, Malavolta and Roberts [GMR25], Theorems 3 and 4, prove an exact correspondence for coupon states with independent hidden random phases. For any fixed coupon support, averaging $T$ copies over one reused phase vector yields a mixture of normalized coherent superpositions of the permutations of $T$ ordinary sampled coupons. Their phases use a modulus larger than $T$; the state identity accommodates repeated coupons. Consequently, coherent permutation simulation and sample equivalence for a hidden ensemble of fixed pure states are prior techniques.
+Goyal, Malavolta and Roberts [GMR25], Theorems 3 and 4, prove an exact correspondence for coupon states with independent hidden random phases. For any fixed coupon support, averaging $`T`$ copies over one reused phase vector yields a mixture of normalized coherent superpositions of the permutations of $`T`$ ordinary sampled coupons. Their phases use a modulus larger than $`T`$; the state identity accommodates repeated coupons. Consequently, coherent permutation simulation and sample equivalence for a hidden ensemble of fixed pure states are prior techniques.
 
 <a id="bbss2023"></a>
 
@@ -84,7 +84,7 @@ The same paper's Section 1.2 explicitly compares this construction with Behera, 
 
 ## Positive subset states and approximate moments
 
-Giurgică-Tiron and Bouland [GTB23], Theorem 1, already establish that positive-amplitude random subset states can approximate Haar moments. A uniformly chosen $m$-element subset of a $D$-element computational basis has a $T$-copy moment within
+Giurgică-Tiron and Bouland [GTB23], Theorem 1, already establish that positive-amplitude random subset states can approximate Haar moments. A uniformly chosen $`m`$-element subset of a $`D`$-element computational basis has a $`T`$-copy moment within
 
 $$
 O(Tm/D+T^2/m)
@@ -98,23 +98,23 @@ $$
 
 in trace norm and identify the sharper concurrent bound of [GTB23]. These results are direct antecedents for the fact that random phases are unnecessary for uninformative high-order state moments. Neither that fact nor an entropy-plus-birthday form of error bound is claimed as new here.
 
-The ensembles and comparison targets differ. A uniformly random global subset does not impose exactly one label at each input address. More importantly, arbitrary laws $P_x$ can retain a structured hidden signal, so the graph-source ensemble need not resemble Haar. S1 compares it to a simulator driven by its own classical joint distribution. In the special case of $N$ uniform input addresses and $K$ uniform labels, the analogy is close: graph support size $N$, ambient dimension $NK$, and $c=1/K$ reproduce the same two scales. The arbitrary conditional-law, signal-preserving statement is the distinction from these subset-state theorems.
+The ensembles and comparison targets differ. A uniformly random global subset does not impose exactly one label at each input address. More importantly, arbitrary laws $`P_x`$ can retain a structured hidden signal, so the graph-source ensemble need not resemble Haar. S1 compares it to a simulator driven by its own classical joint distribution. In the special case of $`N`$ uniform input addresses and $`K`$ uniform labels, the analogy is close: graph support size $`N`$, ambient dimension $`NK`$, and $`c=1/K`$ reproduce the same two scales. The arbitrary conditional-law, signal-preserving statement is the distinction from these subset-state theorems.
 
 <a id="zhandry2021qrf"></a>
 
 ## Random-output oracles and bounded independence
 
-Zhandry's random-function work [Zha21] also establishes an important sample/oracle comparison. Theorem 1.1 of the inspected ECCC revision proves that efficiently distinguishing quantum oracles whose outputs are independently sampled from one common law $D_1$ or $D_2$ yields an efficient distinguisher using ordinary samples. Its proof uses polynomially many samples to construct an approximate small-range oracle. Appendix F, Lemma F.3, applies this to an oracle returning entire ordinary LWE samples.
+Zhandry's random-function work [Zha21] also establishes an important sample/oracle comparison. Theorem 1.1 of the inspected ECCC revision proves that efficiently distinguishing quantum oracles whose outputs are independently sampled from one common law $`D_1`$ or $`D_2`$ yields an efficient distinguisher using ordinary samples. Its proof uses polynomially many samples to construct an approximate small-range oracle. Appendix F, Lemma F.3, applies this to an oracle returning entire ordinary LWE samples.
 
-S1 uses weaker access—copies of one source state—but preserves exactly the classical-example count and allows unknown input-dependent laws $P_x$. An oracle whose output is an entire random pair $(a,b)$, indexed by an unrelated query string, is distinct from a graph example whose input register is $a$ itself. The homogeneous-output oracle reduction therefore does not directly supply S1's conditional-law simulator. [Zha21]
+S1 uses weaker access—copies of one source state—but preserves exactly the classical-example count and allows unknown input-dependent laws $`P_x`$. An oracle whose output is an entire random pair $`(a,b)`$, indexed by an unrelated query string, is distinct from a graph example whose input register is $`a`$ itself. The homogeneous-output oracle reduction therefore does not directly supply S1's conditional-law simulator. [Zha21]
 
 <a id="zhandry2012ibe"></a>
 <a id="joffe1974"></a>
 <a id="vadhan2009notes"></a>
 
-The finite-seed preparation construction is also based on established tools. Degree-$(k-1)$ polynomial evaluation over a finite field gives $k$-wise independence [Jof74]; Construction 3.29 and Proposition 3.30 in Vadhan's notes provide an explicit modern exposition [Vadhan09]. The quantum-query moment principle is due to Zhandry [Zha12]: $2Q$-wise independence reproduces the behavior of a $Q$-query quantum algorithm. It is restated as Fact 2 and Theorem 7.1 in the inspected revision of [Zha21]. A single example involves at most two branch labels in each density-matrix entry; $T$ copies involve at most $2T$. Pairwise or $2T$-wise compilation is thus a source-specific application of established bounded independence.
+The finite-seed preparation construction is also based on established tools. Degree-$`(k-1)`$ polynomial evaluation over a finite field gives $`k`$-wise independence [Jof74]; Construction 3.29 and Proposition 3.30 in Vadhan's notes provide an explicit modern exposition [Vadhan09]. The quantum-query moment principle is due to Zhandry [Zha12]: $`2Q`$-wise independence reproduces the behavior of a $`Q`$-query quantum algorithm. It is restated as Fact 2 and Theorem 7.1 in the inspected revision of [Zha21]. A single example involves at most two branch labels in each density-matrix entry; $`T`$ copies involve at most $`2T`$. Pairwise or $`2T`$-wise compilation is thus a source-specific application of established bounded independence.
 
-The preparation claim must retain its resource assumptions. The source holder can evaluate the signal and the noise sampler; the learner receives neither the hidden seed nor an inverse preparation oracle. A frozen $2T$-wise construction is tied to a declared $T$-copy budget. A fixed finite independence order does not automatically simulate a fully random table against every polynomial-copy learner. A computational pseudorandom-function replacement requires its own assumption and hybrid argument. None of these constructions provides the coherent source from ordinary LWE samples with an unknown secret.
+The preparation claim must retain its resource assumptions. The source holder can evaluate the signal and the noise sampler; the learner receives neither the hidden seed nor an inverse preparation oracle. A frozen $`2T`$-wise construction is tied to a declared $`T`$-copy budget. A fixed finite independence order does not automatically simulate a fully random table against every polynomial-copy learner. A computational pseudorandom-function replacement requires its own assumption and hybrid argument. None of these constructions provides the coherent source from ordinary LWE samples with an unknown secret.
 
 <a id="regev2009"></a>
 
@@ -159,7 +159,7 @@ Yard, Hayden and Devetak [YHD08] prove concavity of coherent information for deg
 
 <a id="kianvash2022"></a>
 
-Kianvash, Fanizza and Giovannetti [KFG22], Section 3 and Proposition 3.1, develop sufficient conditions for degradable flagged extensions and capacity bounds obtained by forgetting the flag. C2 uses the elementary orthogonal-flag case: its coherent branch preserves the input isometrically, while its other branch measures the address. The extension has capacity $c\log_2N$, and forgetting its binary flag loses at most $h_2(c)$ in coherent information at the chosen input. The resulting bounds and the exact uniform-noise value specialize these methods; neither degradability, coherent-information concavity nor the flagged-extension framework is claimed as a new tool.
+Kianvash, Fanizza and Giovannetti [KFG22], Section 3 and Proposition 3.1, develop sufficient conditions for degradable flagged extensions and capacity bounds obtained by forgetting the flag. C2 uses the elementary orthogonal-flag case: its coherent branch preserves the input isometrically, while its other branch measures the address. The extension has capacity $`c\log_2N`$, and forgetting its binary flag loses at most $`h_2(c)`$ in coherent information at the chosen input. The resulting bounds and the exact uniform-noise value specialize these methods; neither degradability, coherent-information concavity nor the flagged-extension framework is claimed as a new tool.
 
 ## Primary sources
 
