@@ -25,7 +25,7 @@ $$
 Theorem S1 provides a quantum simulator using exactly $T$ independent classical examples from $p_xP_x(y)$, with
 
 $$
-\tfrac12\|\Omega_T-\operatorname{Sim}_T\|_1
+\tfrac12\|\Omega_T-\mathrm{Sim}_T\|_1
 \le 1-T!e_T\bigl(\{p_x(1-c_x)\}_x\bigr)
 \le T\bar c+\binom T2\alpha.
 $$
@@ -61,7 +61,7 @@ $$
 discarding the last register gives
 
 $$
-\operatorname{Tr}_{-j}|\Phi\rangle\langle\Phi|
+\mathrm{Tr}_{-j}|\Phi\rangle\langle\Phi|
 =\sum_{a,a'}\gamma_a\overline{\gamma_{a'}}
 \mathbf1[b_{-j}(a)=b_{-j}(a')]
 |a_j,b_j(a)\rangle\langle a'_j,b_j(a')|.

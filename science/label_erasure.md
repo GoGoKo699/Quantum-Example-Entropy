@@ -14,7 +14,7 @@ For two label functions $`u(a)`$ and $`v(a)`$, consider
 The state obtained by discarding the last register is
 
 ```math
-\operatorname{Tr}_v|\Psi\rangle\langle\Psi|
+\mathrm{Tr}_v|\Psi\rangle\langle\Psi|
 =\sum_{a,b}\sqrt{p_ap_b}\,
 \mathbf1_{v(a)=v(b)}
 |a,u(a)\rangle\langle b,u(b)|.

@@ -16,7 +16,7 @@ V_Y|a\rangle=|a,Y_a\rangle,\qquad
 The labels are independent across addresses, with laws $`P_a`$. Write
 
 ```math
-\tau_a=\operatorname{diag}P_a,\qquad
+\tau_a=\mathrm{diag}P_a,\qquad
 |\mu_a\rangle=\sum_yP_a(y)|y\rangle,\qquad
 c_a=\|\mu_a\|^2.
 ```
@@ -38,7 +38,7 @@ Assume $`c_a=c`$ for every address; additive shifts of a common error law satisf
 
 ```math
 \mathcal E-\mathcal C
-=c\,\operatorname{Ad}_W\circ(\operatorname{Id}-\Delta).
+=c\,\mathrm{Ad}_W\circ(\mathrm{Id}-\Delta).
 ```
 
 Thus, for $`N=|\mathcal A|`$,
@@ -62,14 +62,14 @@ Linearity proves the identity. Isometric output conjugation preserves diamond no
 Number the addresses $`0,\ldots,N-1`$ and put $`Z|a\rangle=e^{2\pi ia/N}|a\rangle`$. For $`N\ge2`$,
 
 ```math
-\Delta=\frac1N\sum_{k=0}^{N-1}\operatorname{Ad}_{Z^k},
+\Delta=\frac1N\sum_{k=0}^{N-1}\mathrm{Ad}_{Z^k},
 ```
 
 ```math
-\operatorname{Id}-\Delta
+\mathrm{Id}-\Delta
 =\left(1-\frac1N\right)
-\left(\operatorname{Id}
--\frac1{N-1}\sum_{k=1}^{N-1}\operatorname{Ad}_{Z^k}\right).
+\left(\mathrm{Id}
+-\frac1{N-1}\sum_{k=1}^{N-1}\mathrm{Ad}_{Z^k}\right).
 ```
 
 A difference of channels has diamond norm at most two. This proves the upper bound with arbitrary reference systems. The uniform input $`|+\rangle`$ attains it: $`Z^k|+\rangle`$ for nonzero $`k`$ is orthogonal to $`|+\rangle`$. For $`N=1`$, both sides are zero. ∎
@@ -111,14 +111,14 @@ This capacity is not the performance of an unknown-secret learner or a frozen ch
 Set
 
 ```math
-\tau=\operatorname{diag}\chi,\quad
+\tau=\mathrm{diag}\chi,\quad
 |\mu\rangle=\sum_e\chi(e)|e\rangle,\quad
 c=\sum_e\chi(e)^2,\quad
 A=\tau-|\mu\rangle\langle\mu|,\quad
 B_N=\frac{\tau+(N-1)|\mu\rangle\langle\mu|}{N}.
 ```
 
-For a positive, possibly subnormalized matrix, use $`S(X)=-\operatorname{Tr}X\log_2X`$, with $`0\log_20=0`$.
+For a positive, possibly subnormalized matrix, use $`S(X)=-\mathrm{Tr}X\log_2X`$, with $`0\log_20=0`$.
 
 **Theorem C2.** The exact capacity is
 

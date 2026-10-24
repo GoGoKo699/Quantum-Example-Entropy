@@ -47,8 +47,8 @@ The labels are sampled as classical values before the graph state is emitted. Th
 
 | Source schedule | Joint state supplied in a $`T`$-example experiment |
 |---|---|
-| **Refreshed table:** an independent hidden table is selected for each emitted example | $`\rho^{\otimes T}`$, where $`\rho=\mathbb E_F|\psi_F\rangle\langle\psi_F|`$ |
-| **Frozen table:** one hidden table is selected and its pure state is copied $`T`$ times | $`\Omega_T=\mathbb E_F[(|\psi_F\rangle\langle\psi_F|)^{\otimes T}]`$ |
+| **Refreshed table:** an independent hidden table is selected for each emitted example | $`\rho^{\otimes T}`$, where $`\rho=\mathbb E_F\lvert\psi_F\rangle\langle\psi_F\rvert`$ |
+| **Frozen table:** one hidden table is selected and the source emits $`T`$ copies of its pure state | $`\Omega_T=\mathbb E_F[(\lvert\psi_F\rangle\langle\psi_F\rvert)^{\otimes T}]`$ |
 
 The order of averaging and taking tensor powers is essential. In general $`\Omega_T\ne\rho^{\otimes T}`$. For example, the swap test accepts two copies from the same pure source with probability one, whereas two independently refreshed mixed examples need not pass with certainty.
 
@@ -123,7 +123,7 @@ Here $`(N)_T=N(N-1)\cdots(N-T+1)`$ for $`T\le N`$, and the distinct-address prob
 
 ## 5. Computational and physical interpretation
 
-For a security parameter $`\lambda`$, all input/output encodings and the copy count are charged. If $`T=\operatorname{poly}(\lambda)`$, $`\overline c`$ is negligible and $`\alpha`$ is negligible, the source experiment is reproducible to negligible error by an efficient quantum circuit fed ordinary examples. More generally, the explicit finite expression applies without an asymptotic security convention.
+For a security parameter $`\lambda`$, all input/output encodings and the copy count are charged. If $`T=\mathrm{poly}(\lambda)`$, $`\overline c`$ is negligible and $`\alpha`$ is negligible, the source experiment is reproducible to negligible error by an efficient quantum circuit fed ordinary examples. More generally, the explicit finite expression applies without an asymptotic security convention.
 
 The noise acts through independent classical label choices at different input addresses. It is not a claim about arbitrary local laboratory noise. In particular, applying the same random output shift at every address preserves different coherences. Reusing an unknown table is allowed, but revealing its seed changes the learner's resources. The [interpretation](interpretation.md) explains these distinctions and the difference between operational simulation, entropy diagnostics and computational hardness.
 

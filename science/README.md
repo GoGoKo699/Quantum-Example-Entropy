@@ -2,6 +2,8 @@
 
 The main question is when noisy quantum examples can be reproduced by a quantum circuit whose only data input is ordinary classical examples. The central theorem covers an arbitrary hidden conditional-label law and repeated copies of a single pure state selected by a hidden random table.
 
+The [learning route](../learning/README.md) supplies the selected Watrous anchor, a complete worked example and the 30-milestone conceptual map. The route below goes directly to the authoritative scientific statements and proofs.
+
 ## A connected reading route
 
 1. [Model and result index](model.md): define classical data, independently sampled labels, refreshed versus frozen sources, collision probabilities and the allowed access.
@@ -24,7 +26,7 @@ Two companion topics can be read alongside that route. [Refreshed sources](refre
 | L1: learning transfer | S1 or F1, efficient simulator, trace-distance contractivity |
 | L2: auxiliary-label separation | L1, the established scalar Fourier learner, an explicit classical-input LWE hardness assumption |
 | L3: ring/module consequence | L1 and product coefficient collision probability, with an explicit classical-input hardness assumption |
-| E1: label deletion obstruction | Stinespring dilation and preservation of inner products |
+| E1: one-copy label deletion obstruction | Stinespring dilation and preservation of inner products |
 | C1–C2: channel consequences | F1's moment decomposition, diamond-norm discrimination and established degradable-channel theory |
 
 The [related work](../references/RELATED_WORK.md) identifies imported methods and comparisons at the theorem level. The [verification account](../verification/README.md) documents finite checks and their limits. The general claims are established by the proofs and their stated assumptions; numerical examples do not establish asymptotic hardness or novelty.

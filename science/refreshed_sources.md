@@ -48,14 +48,14 @@ Address orthogonality gives $`W^\dagger W=I`$. For a nonempty finite label law, 
 
 ```math
 \rho-\rho_{\mathrm{cl}}
-=\bar c\,W\left(|u_r\rangle\langle u_r|-\operatorname{diag}r\right)W^\dagger,
+=\bar c\,W\left(|u_r\rangle\langle u_r|-\mathrm{diag}r\right)W^\dagger,
 ```
 
 ```math
 \boxed{D(\rho,\rho_{\mathrm{cl}})=\bar c\,\lambda(r).}
 ```
 
-If $`r`$ has at least two positive entries, $`\lambda(r)`$ is the sole positive eigenvalue of $`|u_r\rangle\langle u_r|-\operatorname{diag}r`$, equivalently the unique positive solution of
+If $`r`$ has at least two positive entries, $`\lambda(r)`$ is the sole positive eigenvalue of $`|u_r\rangle\langle u_r|-\mathrm{diag}r`$, equivalently the unique positive solution of
 
 ```math
 \sum_{a:r_a>0}\frac{r_a}{r_a+\lambda}=1.
@@ -90,13 +90,13 @@ The diagonal blocks average to $`\tau_a`$, so
 Substitution proves the operator identity, and isometric conjugation preserves its nonzero singular values. On the support of $`r`$,
 
 ```math
-|u_r\rangle\langle u_r|-\operatorname{diag}r
-=\operatorname{diag}(\sqrt r)(J-I)\operatorname{diag}(\sqrt r),
+|u_r\rangle\langle u_r|-\mathrm{diag}r
+=\mathrm{diag}(\sqrt r)(J-I)\mathrm{diag}(\sqrt r),
 ```
 
 where $`J`$ is the all-ones matrix. For support size $`k\ge2`$, congruence preserves inertia: there is one positive and $`k-1`$ negative eigenvalues. The trace is zero, so the half trace norm equals the positive eigenvalue.
 
-The matrix determinant lemma gives the secular equation. Its left-hand side decreases continuously from $`k`$ to zero, proving uniqueness. The Rayleigh quotient at $`|u_r\rangle`$ gives the lower bound. The squared fidelity between $`|u_r\rangle\langle u_r|`$ and $`\operatorname{diag}r`$ is $`\sum_ar_a^2`$; the pure-state fidelity bound on trace distance gives the upper bound. ∎
+The matrix determinant lemma gives the secular equation. Its left-hand side decreases continuously from $`k`$ to zero, proving uniqueness. The Rayleigh quotient at $`|u_r\rangle`$ gives the lower bound. The squared fidelity between $`|u_r\rangle\langle u_r|`$ and $`\mathrm{diag}r`$ is $`\sum_ar_a^2`$; the pure-state fidelity bound on trace distance gives the upper bound. ∎
 
 ## Uniform additive errors
 

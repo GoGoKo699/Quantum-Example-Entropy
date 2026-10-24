@@ -108,7 +108,7 @@ By S1, a learner receiving copies from a frozen padded source can be simulated f
 
 The simulator supplies the independent padding bits locally. For a fresh padded source, the error is at most $`T c_\chi2^{-m}(1-q^{-n})`$.
 
-**L2.** Consider a scalar LWE family satisfying the bounded-error parameters in Section 2 and assume that recovering its secret from ordinary classical examples is hard for quantum polynomial-time algorithms. If $`m=\omega(\log\lambda)`$ and $`q^n`$ is superpolynomial in the security parameter, then polynomially many padded quantum examples also fail to permit efficient secret recovery under the same assumption. The unpadded quantum source has the established polynomial learner described above.
+**L2.** Consider a scalar LWE family satisfying the bounded-error parameters in Section 2, with $`n,\log q,B,m`$ polynomially bounded in the security parameter $`\lambda`$, and assume that recovering its secret from ordinary classical examples is hard for quantum polynomial-time algorithms. If also $`m=\omega(\log\lambda)`$ and $`q^n`$ is superpolynomial in $`\lambda`$, then polynomially many padded quantum examples fail to permit efficient secret recovery under the same assumption. The unpadded quantum source has the established polynomial learner described above.
 
 This is a source-access separation for classically equivalent data. The additional bits record a branch-dependent hidden function. They are not an independent quantum register tensor-multiplied onto the original example. Tracing them out can remove the coherence used by the scalar learner; [E1](label_erasure.md) gives a one-copy obstruction to universally deleting unknown output coordinates. S1 supplies the separate many-copy ensemble comparison.
 

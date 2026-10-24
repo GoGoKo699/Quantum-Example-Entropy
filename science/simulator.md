@@ -9,7 +9,7 @@ Let an address and a label use $`L_A`$ and $`L_Y`$ bits, and put $`L=L_A+L_Y`$. 
 Read $`(a_1,y_1),\ldots,(a_T,y_T)`$ and test whether the addresses are pairwise distinct. On a repeated address, output a fixed density operator $`\tau_{\rm fail}`$ on the $`T`$-example register. The all-zero state in the encoded register space is one choice. On distinct addresses, output
 
 ```math
-|\operatorname{Sym}(\mathbf a,\mathbf y)\rangle
+|\mathrm{Sym}(\mathbf a,\mathbf y)\rangle
  =\frac1{\sqrt{T!}}\sum_{\pi\in S_T}
       |a_{\pi(1)},y_{\pi(1)}\rangle\otimes\cdots\otimes
       |a_{\pi(T)},y_{\pi(T)}\rangle.
@@ -84,7 +84,7 @@ For the proof of S1, fix a distinct address tuple $`\mathbf a`$ and regard the l
 
 ```math
 V_{\mathbf a}|y_1,\ldots,y_T\rangle
-  =|\operatorname{Sym}(\mathbf a,\mathbf y)\rangle.
+  =|\mathrm{Sym}(\mathbf a,\mathbf y)\rangle.
 ```
 
 For two computational basis label tuples $`\mathbf y`$ and $`\mathbf z`$,
