@@ -66,6 +66,17 @@ The source includes the full noisy output. [Coherent label deletion](science/lab
 
 The [science entrypoint](science/README.md) connects these topics in one reading route. The [LLM guide](llms.txt) maps questions to the same authoritative proofs.
 
+## Learn the project
+
+The [learning entrypoint](learning/README.md) connects a small worked example, a single educational anchor and the complete conceptual route.
+
+| Learning resource | Purpose |
+|---|---|
+| [30-milestone map](learning/MILESTONES.md) | Twelve background milestones and eighteen project milestones, progressing from individual objects to the complete argument and its consequences |
+| [Watrous anchor guide](learning/ANCHOR.md) | Focused readings from *The Theory of Quantum Information* (2018), with precise source and edition information |
+| [From Watrous to the project](learning/BRIDGE.md) | Notation, assumptions and the additional steps connecting textbook tools to the simulation theorem |
+| [Two addresses and noisy labels](learning/WORKED_EXAMPLE.md) | A complete small example of averaging, frozen-copy coherence and the classical-data simulator |
+
 ## Reproduce the finite checks
 
 From the repository root:

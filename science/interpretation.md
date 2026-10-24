@@ -25,7 +25,7 @@ The second moment decomposes into two positive terms:
 D_a=\mathbb E|Y_a\rangle\langle Y_a|
 =K_a+|\mu_a\rangle\langle\mu_a|,
 \qquad
-K_a\ge0,\qquad \operatorname{Tr}K_a=1-c_a.
+K_a\ge0,\qquad \mathrm{Tr}K_a=1-c_a.
 ```
 
 When $`c_a`$ is small, the centered covariance carries almost all the mass. In a collection of copies, products of independent centered variables vanish unless the same input addresses are matched on the bra and ket sides. For distinct addresses, the surviving terms are precisely the coherent permutations reproduced by the classical-data simulator. The [common-core proof](frozen_sources.md) identifies that large positive component inside both experiments.

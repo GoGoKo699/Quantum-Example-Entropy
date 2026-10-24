@@ -18,6 +18,19 @@ This repository studies when noisy graph-state examples can be reproduced by an 
 - Theorem-level prior work and source-access limits: references/RELATED_WORK.md
 - Structured primary bibliography: references/references.bib
 - Reproducible finite verification: verification/README.md and verification/run_all.py
+- Learning entrypoint and reading routes: learning/README.md
+- Exactly 30 common understanding targets and their dependencies: learning/MILESTONES.md
+- Selected educational anchor and source editions: learning/ANCHOR.md
+- Watrous notation and source-to-project derivations: learning/BRIDGE.md
+- Complete two-address example and scaling illustration: learning/WORKED_EXAMPLE.md
+
+## Reading intentions
+
+- For the scientific story, follow README.md, science/model.md, science/frozen_sources.md, science/lattice_examples.md, and science/interpretation.md.
+- For systematic study, follow the fixed M01–M30 map in learning/MILESTONES.md. Use the focused Watrous readings in learning/ANCHOR.md, the local explanations in learning/BRIDGE.md, and the canonical scientific files named by each milestone.
+- For a concrete introduction, use learning/WORKED_EXAMPLE.md. Its small finite example illustrates the source distinction; its general conclusions are supplied by the linked theorems.
+- For theorem scrutiny, use science/model.md as the claim index, then the authoritative proof file and its resource assumptions. Follow references/RELATED_WORK.md for imported ingredients and limits of comparison.
+- For reproduction, use verification/README.md and the pinned requirements. The recorded numerical checks and analytical proofs have distinct evidentiary roles.
 
 ## Essential distinctions
 
@@ -30,5 +43,6 @@ This repository studies when noisy graph-state examples can be reproduced by an 
 7. Source noise is sampled as classical branch labels. Do not replace it by a coherent conditional-probability amplitude encoding.
 8. The channel-capacity companion concerns a known memoryless channel; it does not enlarge the random-example access assumed by the learning hardness reduction.
 9. Finite checks validate selected matrix and implementation identities. They do not certify general proofs, computational assumptions or an exhaustive priority claim.
+10. Watrous (2018) is the sole educational anchor. It supplies the foundations; the conditional-label theorem and application-specific arguments are in the project. Research citations provide attribution without turning the anchor into a multi-book prerequisite list.
 
 Each theorem has one authoritative proof file. Prefer its exact statement over summaries. Preserve attribution and unresolved source-access limitations when discussing novelty.

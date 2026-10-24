@@ -28,7 +28,7 @@ For the channel checks, the script enumerates the isometries corresponding to al
 | Cases | Scientific risk addressed |
 |---|---|
 | Uniform additive, nonuniform conditional, one-address, and deterministic-label sources | Normalization of the mean label vectors; the factor $`\bar c`$; the exact F1 spectrum and secular root; endpoint behavior |
-| Label covariance in every fresh case | Positivity and trace of $`\operatorname{diag}P_a-|\mu_a\rangle\langle\mu_a|`$ |
+| Label covariance in every fresh case | Positivity and trace of $`\mathrm{diag}P_a-\lvert\mu_a\rangle\langle\mu_a\rvert`$ |
 | Frozen two- and three-copy ensembles, nonuniform inputs, product labels, and more copies than supported addresses | Global cross-term cancellation; positivity of both common-core remainders; correct core weight; permutation factorials; exact-$`T`$ collision fallback |
 | Symmetrization isometries on arbitrary quantum label systems | The coherent-permutation map is an isometry on entangled or mixed label inputs when addresses are distinct |
 | Frozen versus refreshed SWAP control | A frozen pure source cannot be replaced by independent copies of its one-copy average; the permutation simulator preserves the relevant copy coherence |

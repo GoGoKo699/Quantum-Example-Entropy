@@ -88,9 +88,9 @@ The relevant traces are
 ```math
 \langle m_a|m_a\rangle=c_a,
 \qquad
-\operatorname{Tr}B_a=1,
+\mathrm{Tr}B_a=1,
 \qquad
-\operatorname{Tr}K_a=1-c_a.
+\mathrm{Tr}K_a=1-c_a.
 ```
 
 Write the source vector as its mean plus independent centered address blocks:
@@ -136,7 +136,7 @@ It follows globally, without conditioning on distinct addresses, that
 Orthogonality of different address strings and independence of the table entries give
 
 ```math
-\operatorname{Tr}C_T
+\mathrm{Tr}C_T
  =\sum_{\mathbf a\in\mathcal I_T}
       \prod_{i=1}^T
         p_{a_i}\,\mathbb E\langle\xi_{a_i}|\xi_{a_i}\rangle
