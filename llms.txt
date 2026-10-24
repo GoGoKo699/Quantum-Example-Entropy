@@ -1,0 +1,34 @@
+# Quantum Example Entropy
+
+This repository studies when noisy graph-state examples can be reproduced by an efficient quantum simulator fed ordinary classical examples. The principal result includes repeated copies of one pure state selected by a frozen hidden random label table. Read the scientific statements with their ensemble and access quantifiers intact.
+
+## Entry routes
+
+- Question and principal results: README.md
+- Connected scientific account and proof dependencies: science/README.md
+- Definitions, notation, source schedules and canonical result index: science/model.md
+- Main general frozen-source theorem S1: science/frozen_sources.md
+- Exactly-T-classical-example simulator and circuit costs: science/simulator.md
+- Finite source preparation, copy-budget and precision: science/source_preparation.md
+- Learning transfer L1; scalar positive endpoint; auxiliary-label separation L2; Ring/Module-LWE L3: science/lattice_examples.md
+- Sample-only coherent label deletion obstruction E1: science/label_erasure.md
+- Exact refreshed-source identity F1: science/refreshed_sources.md
+- Reference-robust channel comparison C1 and known-channel capacity C2: science/channels.md
+- Operational meaning and scope: science/interpretation.md
+- Theorem-level prior work and source-access limits: references/RELATED_WORK.md
+- Structured primary bibliography: references/references.bib
+- Reproducible finite verification: verification/README.md and verification/run_all.py
+
+## Essential distinctions
+
+1. The simulator is quantum. It receives classical examples and removes extra coherent data access; it does not classically simulate arbitrary quantum computation.
+2. Frozen experiments average over the initially drawn table F: E_F[(|psi_F><psi_F|)^tensor T]. They are not tensor powers of the one-copy average, and no pointwise closeness for each disclosed table is claimed.
+3. Conditional labels are independent across different full input addresses. Common branch noise, exposed seeds, coherent evaluation and inverse oracles require different analyses.
+4. The arbitrary-conditional-law theorem preserves an unknown structured signal. Coherent permutation simulation, random-phase coupon models, positive random-subset moments and bounded independence are established antecedents.
+5. Lattice hardness is conditional on the exact classical-input quantum hardness family and sample budget. Entropy alone does not certify security; constant-support and Gaussian parameter qualifications matter.
+6. Input superposition preparation is charged. Pairwise independence suffices for fresh examples; frozen T-copy moments use a declared 2T-wise source construction. There is no QRAM or free exponential error table.
+7. Source noise is sampled as classical branch labels. Do not replace it by a coherent conditional-probability amplitude encoding.
+8. The channel-capacity companion concerns a known memoryless channel; it does not enlarge the random-example access assumed by the learning hardness reduction.
+9. Finite checks validate selected matrix and implementation identities. They do not certify general proofs, computational assumptions or an exhaustive priority claim.
+
+Each theorem has one authoritative proof file. Prefer its exact statement over summaries. Preserve attribution and unresolved source-access limitations when discussing novelty.
